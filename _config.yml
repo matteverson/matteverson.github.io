@@ -1,0 +1,15 @@
+# Site settings
+title: Servant Tome
+email: 
+description: > # this means to ignore newlines until "baseurl:"
+  A mix of longer and shorter posts on security, risk, and freedom.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://matteverson.github.io" # the base hostname & protocol for your site
+twitter_username: matteverson
+github_username:  matteverson
+
+# Build settings
+markdown: kramdown
+
+# Server settings
+host: 0.0.0.0
