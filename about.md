@@ -1,7 +1,11 @@
 ---
-layout: page
-title: About
-permalink: /about/
+layout: post
+permalink: /about/index.html
+title: About Servant Tome
+description: Servant Tome is a place to write. Sometimes things have to be written before they are fully understood.
+tags: [about]
+image:
+  feature: soft-trees.jpg
 ---
 
-I’m a researcher working on information security.
+This space intentionally left blank.
