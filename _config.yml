@@ -37,15 +37,18 @@ links:
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/Chicago
 future:      true
-markdown:    kramdown
+markdown:    redcarpet
 
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  syntax_highlighter: rouge
-  input: GFM
+redcarpet:
+    extensions: ['smart', 'strikethrough', 'filter_html']
+
+# Github Pages enforces these no matter what. Including them here allows local
+# testing
+safe: true
+lsi: false
+
+# Github sets this but we are free to override it
+highlighter: pygments
 
 sass:
     style: :compressed

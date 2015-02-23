@@ -63,36 +63,24 @@ blockquote, blockquote p {
 /*   Code Formatting    */
 
 code {
-    color: $accent;
-    font-family: "Monaco", "Courier New", "Courier";
+	color: $accent;
+    font-family: $monospace;
     font-size: .75em;
     font-weight: bold;
 }
 
 .highlight {
-    background: $black;
     padding: 12px;
     border-radius: 4px;
     margin-bottom: $lh;
     overflow-x: scroll;
 
     code {
-        color: $white;
-        font-family: "Monaco", "Courier New", "Courier";
+        font-family: $monospace;
         font-size: .9em;
         .lineno {
             margin-right: $lh/2;
-            color: $grey-light;
             line-height: 2em;
-        }
-        .nt {
-            color: #c85b5c;
-        }
-        .na {
-            color: #f0e687;
-        }
-        .s {
-            color: #87ceeb;
         }
     }
 }
